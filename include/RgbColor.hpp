@@ -3,8 +3,8 @@
 #include <Arduino.h>
 
 
-class RgbColor {
-
+class RgbColor 
+{
 public:
     uint32_t m_Red;
     uint32_t m_Green;

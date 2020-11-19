@@ -13,9 +13,8 @@ public:
     NeoPixelHandler();
 
     void init() const;
-    virtual void setColor(const RgbColor& rgbColor, uint32_t brightness) const override;
+    void setColor(const RgbColor& rgbColor, uint32_t brightness) const override;
 
 private:
     mutable Adafruit_NeoPixel m_NeoPixel;
-
 };

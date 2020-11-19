@@ -2,12 +2,12 @@ name: jenkins-head-ci
 
 on:
   push:
-    branches: 
+    branches:
       - main
     paths-ignore:
       - 'doc/**'
   pull_request:
-    branches: 
+    branches:
       - main
 
 jobs:

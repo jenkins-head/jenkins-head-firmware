@@ -8,8 +8,8 @@
 
 
 
-class GattColorLedServer : public BLECharacteristicCallbacks {
-
+class GattColorLedServer : public BLECharacteristicCallbacks 
+{
 public:
     explicit GattColorLedServer(const ColorHandlerInterface& colorHandler);
     void init();
@@ -33,7 +33,6 @@ private:
     void initAdvertising();
     uint32_t* operator[](BLEUUID& key);
 
-    virtual void onRead(BLECharacteristic* pCharacteristic) override;
-	virtual void onWrite(BLECharacteristic* pCharacteristic) override;
-
+    void onRead(BLECharacteristic* pCharacteristic) override;
+    void onWrite(BLECharacteristic* pCharacteristic) override;
 };

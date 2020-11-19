@@ -8,7 +8,6 @@ RgbColor::RgbColor()
  RgbColor::RgbColor(uint32_t red, uint32_t green, uint32_t blue)
     : m_Red(red), m_Green(green), m_Blue(blue)
  {
-
  }
 
 String RgbColor::toString() const

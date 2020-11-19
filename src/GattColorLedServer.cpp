@@ -95,7 +95,6 @@ uint32_t* GattColorLedServer::operator[](BLEUUID& key)
     return pReturnValue;
 }
 
-
 void GattColorLedServer::onRead(BLECharacteristic* pCharacteristic)
 {
     Serial.println("GattColorLedServer::onRead");
@@ -110,7 +109,6 @@ void GattColorLedServer::onRead(BLECharacteristic* pCharacteristic)
            pCharacteristic->setValue(*pValue);
         }
     }
-
 }
 
 void GattColorLedServer::onWrite(BLECharacteristic* pCharacteristic)
