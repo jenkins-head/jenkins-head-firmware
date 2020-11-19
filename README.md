@@ -1,5 +1,5 @@
 ![jenkins-head-ci](https://github.com/jenkins-head/head-firmware/workflows/jenkins-head-ci/badge.svg)
-[![CodeFactor](https://www.codefactor.io/repository/github/jenkins-head/head-firmware/badge)](https://www.codefactor.io/repository/github/jenkins-head/head-firmware)
+[![CodeFactor](https://www.codefactor.io/repository/github/jenkins-head/jenkins-head-firmware/badge)](https://www.codefactor.io/repository/github/jenkins-head/jenkins-head-firmware)
 
 # General
 
