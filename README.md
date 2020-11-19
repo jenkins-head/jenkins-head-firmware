@@ -1,3 +1,5 @@
+![jenkins-head-ci](https://github.com/jenkins-head/head-firmware/workflows/jenkins-head-ci/badge.svg)
+
 # General
 
 This Project is based on [platformio.io](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide#review-details) for the installation please follow the plug-in installation guide.
